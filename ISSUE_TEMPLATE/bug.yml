@@ -1,0 +1,59 @@
+name: Bug report
+description: Report a problem you encountered
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting this bug!
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Clearly describe the bug.
+      placeholder: Tell us what went wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this bug?
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened?
+      placeholder: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried?
+      description: What troubleshooting steps have you already attempted?
+      placeholder: What have you tried to fix this?
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: Platform/OS/Device
+      description: What platform, OS, or device are you using?
+      placeholder: "e.g., Ubuntu 22.04, macOS 14, Raspberry Pi 4"
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Screenshots, logs, anything else helpful?
+      placeholder: Add any additional helpful information
+    validations:
+      required: false
