@@ -30,14 +30,6 @@ Youtube channel: [youtube.com/@source-robotics](https://www.youtube.com/@source-
 [![Forum](https://img.shields.io/badge/Forum-05330A)](https://discourse.source-robotics.com/) [![Hackaday](https://img.shields.io/badge/Hackaday-000000?logo=hackaday&logoColor=white)](https://hackaday.io/project/191860-parol6-desktop-robotic-arm)   [![Blog](https://img.shields.io/badge/Blog-Source%20Robotics-blue)](https://source-robotics.com/blogs/blog) <br> 
 
 
-<a href="https://github.com/PCrnjak/STEPFOC-stepper-controller">
-  <img align="center" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=PCrnjak&repo=STEPFOC-stepper-controller&bg_color=00000000&title_color=b8b4b4&text_color=b8b4b4" />
-</a>
-
-
-<a href="https://github.com/PCrnjak/Spectral-Micro-BLDC-controller">
-  <img align="center" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=PCrnjak&repo=Spectral-Micro-BLDC-controller&bg_color=00000000&title_color=b8b4b4&text_color=b8b4b4" />
-</a>
 
 
 
