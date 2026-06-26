@@ -15,7 +15,7 @@ For any questions, send us a mail at info@source-robotics.com, or use the [conta
  Our [official website](https://source-robotics.com/) 
  
 GitHub stats:<br>
-![GitHub stars](https://img.shields.io/github/stars/PCrnjak?style=social) ![GitHub followers](https://img.shields.io/github/followers/PCrnjak?style=social)
+![GitHub stars](https://img.shields.io/github/stars/Source-Robotics?style=social) ![GitHub followers](https://img.shields.io/github/followers/Source-Robotics?style=social)
 
 Youtube channel: [youtube.com/@source-robotics](https://www.youtube.com/@source-robotics)<br>
 ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCp3sDRwVkbm7b2M-2qwf5aQ) ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCp3sDRwVkbm7b2M-2qwf5aQ)
