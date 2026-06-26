@@ -1,5 +1,3 @@
-# Welcome to Source Robotics
-
 Our main mission is to bridge the gap between robotic education, research, and industry with accessible and open-source solutions.<br>
 We accomplish this by developing high-performance robotics hardware such as robotic arms, motor controllers, and grippers. 
 
