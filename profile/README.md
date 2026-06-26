@@ -10,10 +10,6 @@ We accomplish this by developing high-performance robotics hardware such as robo
 
 Browse around our GitHub where all code we use and produce is **Open-Source**.
 
-For any questions, send us a mail at info@source-robotics.com, or use the [contact form](https://source-robotics.com/pages/contact).
-
- Our [official website](https://source-robotics.com/) 
- 
 GitHub stats:<br>
 ![GitHub stars](https://img.shields.io/github/stars/Source-Robotics?style=social) ![GitHub followers](https://img.shields.io/github/followers/Source-Robotics?style=social)
 
@@ -27,6 +23,7 @@ Youtube channel: [youtube.com/@source-robotics](https://www.youtube.com/@source-
 <a href="http://discord.gg/prjUvjmGpZ"><img src="https://img.shields.io/discord/1072498136284667955?logo=discord&color=blue" alt="Discord"></a>
 [![Forum](https://img.shields.io/badge/Forum-05330A)](https://discourse.source-robotics.com/) [![Hackaday](https://img.shields.io/badge/Hackaday-000000?logo=hackaday&logoColor=white)](https://hackaday.io/project/191860-parol6-desktop-robotic-arm)   [![Blog](https://img.shields.io/badge/Blog-Source%20Robotics-blue)](https://source-robotics.com/blogs/blog) <br> 
 
+For any questions, send us a mail at info@source-robotics.com, or use the [contact form](https://source-robotics.com/pages/contact).
 
 
 
