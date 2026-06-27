@@ -10,10 +10,9 @@ We accomplish this by developing high-performance robotics hardware such as robo
 
 
 
-<a href="http://discord.gg/prjUvjmGpZ"><img src="https://img.shields.io/discord/1072498136284667955?logo=discord&color=blue" alt="Discord"></a>
 
 
-For any questions, send us a mail at info@source-robotics.com use the [contact form](https://source-robotics.com/pages/contact) or send us a discord msg.
+For any questions, send us a mail at info@source-robotics.com use the [contact form](https://source-robotics.com/pages/contact) or send us a <a href="http://discord.gg/prjUvjmGpZ"><img src="https://img.shields.io/discord/1072498136284667955?logo=discord&color=blue" alt="Discord"></a> msg.
 
 
 
