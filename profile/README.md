@@ -1,5 +1,3 @@
-<h2 align="left">Robotics you can build on.</h2>
-
 <p align="left">
   Source Robotics develops open-source robotic arms, motor controllers, and adaptive grippers<br>
   for education, research, and automation.
