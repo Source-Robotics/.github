@@ -4,7 +4,7 @@
 
 ## How You Can Contribute to Source Robotics
 
-There are three main ways to support our projects:  
+There are two main ways to support our projects:  
 
 1. **Contribute your expertise**  
    - Share ideas and feedback in [GitHub Discussions](https://github.com/orgs/Source-Robotics/discussions) or on [Discord](https://discord.com/invite/prjUvjmGpZ).  
@@ -12,11 +12,6 @@ There are three main ways to support our projects:
 
 2. **Purchase our products**  
    - Support ongoing development by visiting our [store](https://source-robotics.com/).
-
-3. **Donate**  
-   - [Patreon](https://www.patreon.com/c/PCrnjak)  
-   - [PayPal](https://www.paypal.com/paypalme/PCrnjak?locale.x=en_US)  
-   - [GitHub Sponsors](https://github.com/sponsors/PCrnjak)  
 
 ---
 
