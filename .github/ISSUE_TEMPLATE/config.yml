@@ -1,1 +1,14 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://docs.source-robotics.com/
+    about: Manuals for PAROL6, the grippers and the motor drivers; most answers are there.
+  - name: Questions and help (GitHub Discussions)
+    url: https://github.com/orgs/Source-Robotics/discussions/categories/q-a
+    about: Ask a question, show your build or share an idea; answers stay searchable for the next person.
+  - name: Chat on Discord
+    url: https://discord.com/invite/prjUvjmGpZ
+    about: Talk with the community and the team.
+  - name: Orders, shipping and returns
+    url: https://source-robotics.com/pages/contact
+    about: Anything about an order from the shop.
