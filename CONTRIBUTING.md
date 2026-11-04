@@ -7,7 +7,7 @@
 There are three main ways to support our projects:  
 
 1. **Contribute your expertise**  
-   - Share ideas and feedback on [Discord](https://discord.gg/prjUvjmGpZ) or the [forum](https://forum.source-robotics.com/).  
+   - Share ideas and feedback in [GitHub Discussions](https://github.com/orgs/Source-Robotics/discussions) or on [Discord](https://discord.com/invite/prjUvjmGpZ).  
    - Help improve hardware designs, firmware, documentation, or software.
 
 2. **Purchase our products**  
@@ -128,14 +128,12 @@ Then open a pull request on GitHub with:
 
 ---
 
----
-
 ## Not Sure Where to Start?
 
 - Look for GitHub issues labeled **"help wanted"**.  
-- Join the conversation on [Discord](https://discord.gg/prjUvjmGpZ) or the [forum](https://forum.source-robotics.com/).
-- TODO Check the **project roadmap** for upcoming features.
-- COMING SOON - bounties!
+- Join the conversation in [GitHub Discussions](https://github.com/orgs/Source-Robotics/discussions) or on [Discord](https://discord.com/invite/prjUvjmGpZ).
+- Share what you would like us to build or change in [Discussions → Ideas](https://github.com/orgs/Source-Robotics/discussions/categories/ideas).
+
 ---
 
 ## Final Note
