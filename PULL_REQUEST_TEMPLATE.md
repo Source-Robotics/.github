@@ -20,3 +20,6 @@
 - [ ] My commits have clear, descriptive messages
 - [ ] I've updated documentation if needed
 - [ ] This PR addresses a single feature or fix (no mixed changes)
+- [ ] I understand the changes I am submitting and can explain how they work.
+- [ ] If I used AI tools, I reviewed and tested what they produced.
+- [ ] For firmware or hardware changes: I tested them on a real board or robot.
