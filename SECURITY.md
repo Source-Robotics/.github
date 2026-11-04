@@ -1,54 +1,47 @@
-# Security Policy
-## Usage and Safety Disclaimer for Source Robotics Projects
+# Security policy
 
-The Source Robotics projects, including robotic arms and associated parts, are designed **solely for engineering development, demonstration, and evaluation purposes**. They are **not final consumer products** and **should only be handled by individuals with proper electronics and robotics training** who follow sound engineering and safety practices.
+## Reporting a problem
 
-**Important Considerations:**
+Please report security problems privately, not in a public issue, discussion or Discord channel:
 
-- These projects **may not comply with regulatory standards** such as EU directives (EMC, RoHS, WEEE), FCC, CE, UL, or others due to their open-source nature and user-supplied components.
-- The user **assumes full responsibility and liability** for the safe assembly, operation, and maintenance of the hardware.
-- Users **must take all necessary precautions**, including but not limited to wearing appropriate protective equipment, ensuring safe work environments, and understanding risks related to electricity, mechanical motion, and other hazards.
-- Users **must comply with all applicable local laws, regulations, and safety standards** when building or operating these robotic systems.
-- It is strongly recommended to **read all related documentation and manuals thoroughly** before assembly or use.
-- After building, users should **familiarize themselves thoroughly with the robot control software and safe operation procedures**.
-- **Robots can cause burns, electrocution, physical injury, or other harm** if mishandled.
+- **On GitHub:** open the repository's **Security** tab and choose **Report a vulnerability**. Only the maintainers
+  see the report.
+- **By email:** info@source-robotics.com.
 
-**Liability and Warranty Disclaimer:**
+Name the product and its hardware version, the firmware or software version, the steps that show the problem and
+what it could lead to. One problem per report.
 
-- The Source Robotics team **disclaims all warranties**, express or implied, including fitness for a particular purpose.
-- **Neither party shall be liable for indirect, special, incidental, or consequential damages** arising from the use or inability to use the products.
-- Users agree to **indemnify and hold harmless the Source Robotics team** from any claims, damages, or liabilities resulting from the use or misuse of these products.
+Report a safety hazard in a design the same way, for example a fault that can make a robot move on its own, so we
+can warn the people who have one before it is public.
 
-By proceeding to build or use Source Robotics projects, you acknowledge and accept these terms.
+## What this covers
 
----
+The firmware of PAROL6, the grippers and the motor drivers, the bootloader, the Python libraries, the PAROL6
+commander, RCB-Runtime and [Motor GUI](https://motorgui.com/). Sim2Bot has its own policy, in
+[sim2bot-python](https://github.com/Source-Robotics/sim2bot-python/blob/main/SECURITY.md). For the shop at
+source-robotics.com, email us.
 
+Not a vulnerability: the CAN, UART and USB links accept commands from whatever is connected to them. That is how
+they are built; keep them on hardware you control.
 
+## Supported versions
 
-## Our Commitment  
-Ensuring the safety and security of users and their hardware is our top priority. We welcome security reports from researchers to help us identify and resolve vulnerabilities.
+The latest release of each firmware, library and program. Fixes go into the next release.
 
-## Scope  
-This policy applies to all hardware, firmware, software, and related services governed by our organization. Some hardware features may involve inherently risky operations; if these are clearly documented, they are not considered security issues.
+## What happens next
 
-## Reporting Vulnerabilities  
-If you discover a security or safety issue, please report it privately by emailing **info@source-robotics.com**. Do **not** disclose issues publicly or via issue trackers. Provide detailed, reproducible steps, specify the hardware model/version, firmware/software involved, and clearly describe potential impact or risks. Submit one vulnerability per report.
+- We confirm your report within three days and keep you informed until it is fixed.
+- We keep the report and your details confidential.
+- When it is fixed, we credit you in the release notes or the advisory, if you want.
 
-## Our Response  
-- We acknowledge reports within 48 hours and provide a detailed response within 96 hours or 3 business days.  
-- We maintain strict confidentiality and do not share your personal information without permission.  
-- We keep you informed on progress toward resolution.  
-- With your consent, we credit you as the discoverer after issues are resolved.
+## Safe harbor
 
-## Safe Harbor for Researchers  
-We support responsible disclosure and will not pursue legal action against researchers who:  
-- Act in good faith, avoid causing harm to hardware, firmware, or software, and prevent safety risks to users.  
-- Only access hardware or systems they own or have explicit permission for.  
-- Immediately report and delete any accidental access to sensitive data.  
-- Provide us reasonable time to address vulnerabilities before public disclosure.
+We will not take legal action against research done in good faith: on hardware and systems you own or may test,
+without harm to people, hardware or data, and with reasonable time for us to fix the problem before you publish
+it.
 
-## Prohibited Actions  
-Exploiting vulnerabilities, performing unsafe manipulations that could cause physical harm, or social engineering (e.g., phishing) are strictly forbidden.
+## Safety and liability
 
-## Supported Versions  
-Security support covers actively maintained hardware models, firmware, and software versions. Please refer to individual project documentation for details.
+Building and running a robot has risks of its own. See the [safety and liability disclaimer](SAFETY_AND_LIABILITY.md),
+the `SAFETY_WARNING_AND_DISCLAIMER.md` in each product's repository and the safety chapter of its
+[manual](https://docs.source-robotics.com/).

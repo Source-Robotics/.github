@@ -7,6 +7,7 @@ This repository contains community guidelines, templates, and default configurat
 - **CONTRIBUTING.md** — How to contribute to Source Robotics projects
 - **CODE_OF_CONDUCT.md** — Community standards and expectations
 - **SECURITY.md** — How to report security vulnerabilities responsibly
+- **SAFETY_AND_LIABILITY.md** — The usage, safety and liability disclaimer for Source Robotics projects
 - **SUPPORT.md** — Where to get help and how to ask good questions
 - **Issue & PR Templates** — Standardized formats for bug reports and feature requests
 
