@@ -1,59 +1,48 @@
 name: Bug report
-description: Report a problem you encountered
-title: "[Bug]: "
+description: Something in a design, the firmware or the software does not work as it should.
+type: Bug
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
-      value: Thanks for reporting this bug!
+      value: |
+        Before you report, check the product's manual at [docs.source-robotics.com](https://docs.source-robotics.com/);
+        most manuals have a Known issues page. Questions go to
+        [Discussions](https://github.com/orgs/Source-Robotics/discussions).
+  - type: dropdown
+    id: product
+    attributes:
+      label: Which product?
+      options:
+        - PAROL6
+        - PAR6 (beta)
+        - SSG-48 gripper
+        - MSG gripper
+        - STEPFOC driver
+        - Spectral Micro driver
+        - CANvas adapter
+        - Other or software
+    validations:
+      required: true
   - type: textarea
-    id: description
+    id: what-happened
     attributes:
       label: What happened?
-      description: Clearly describe the bug.
-      placeholder: Tell us what went wrong.
+      description: What did you do, what did you expect, and what happened instead?
     validations:
       required: true
-  - type: textarea
-    id: steps
-    attributes:
-      label: Steps to reproduce
-      description: How can we reproduce this bug?
-      placeholder: |
-        1.
-        2.
-        3.
-    validations:
-      required: true
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected behavior
-      description: What should have happened?
-      placeholder: What did you expect?
-    validations:
-      required: true
-  - type: textarea
-    id: tried
-    attributes:
-      label: What have you tried?
-      description: What troubleshooting steps have you already attempted?
-      placeholder: What have you tried to fix this?
-    validations:
-      required: false
   - type: input
-    id: environment
+    id: versions
     attributes:
-      label: Platform/OS/Device
-      description: What platform, OS, or device are you using?
-      placeholder: "e.g., Ubuntu 22.04, macOS 14, Raspberry Pi 4"
+      label: Versions
+      description: Firmware and software versions, if you know them.
+      placeholder: "e.g. firmware 108, Python API 0.9.1"
     validations:
       required: false
   - type: textarea
-    id: additional
+    id: attachments
     attributes:
-      label: Additional context
-      description: Screenshots, logs, anything else helpful?
-      placeholder: Add any additional helpful information
+      label: Photos, logs or screenshots
+      description: Drag them in here. Paste logs as text.
     validations:
       required: false
